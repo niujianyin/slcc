@@ -1,0 +1,40 @@
+// 颜色定义规范
+$red = #c6282f;
+$color = #333;
+$cwhite = #fff;
+$cgray = #7b7b7b;
+$cgray1 = #a0a1a3;
+$cgray2 = #c2c2c4;
+$cgray3 = #A8A8A8;
+$cgray4 = #b7b7b9;
+$cgray5 = #9f9fa2;
+$cgray6 = #ebebed;
+$cbg = #f7f8f9;
+
+$hred = #C6282F;
+
+$bred = #b01b21;
+$bgray = #e7e7e9;
+$bgray1 = #d7dade;
+$bgray2 = #eff0f1;
+
+$bgred1 = #f8e5e6;
+$bgpink = #f7dfe0;
+
+
+// 不换行
+no-wrap()
+  text-overflow: ellipsis
+  overflow: hidden
+  white-space: nowrap
+
+// 扩展点击区域
+extend-click()
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    top: -10px
+    left: -10px
+    right: -10px
+    bottom: -10px
